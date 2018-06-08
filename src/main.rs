@@ -46,12 +46,12 @@ fn incr_vec_1bpp(px_vec: &mut Vec<u8>) {
 
     let mut idx: usize = 0;
 
-    if px_vec[idx] == MIN {
+    if px_vec[idx] != MAX {
         px_vec[idx] = MAX;
         return;
     }
 
-    while idx < px_vec.len() && px_vec[idx] == MAX {
+    while idx < px_vec.len() && px_vec[idx] != MIN {
 
         px_vec[idx] = MIN;
         idx = idx + 1;
