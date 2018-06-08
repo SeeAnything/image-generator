@@ -204,9 +204,9 @@ fn main() {
     const HEIGHT: u32 = 240;
     const INCREMENT: u32 = 500;
 
-    const FPATH_8BPP: &str = "theimage.bmp";
-    const FPATH_1BPP: &str = "theimage_1bpp.bmp";
-    const FPATH_RAND: &str = "theimage_rand.bmp";
+    const FPATH_8BPP: &str = "/var/www/html/theimage.bmp";
+    const FPATH_1BPP: &str = "/var/www/html/theimage_1bpp.bmp";
+    const FPATH_RAND: &str = "/var/www/html/theimage_rand.bmp";
 
     thread::spawn(move || {
         generate_images_8bpp(WIDTH, HEIGHT, INCREMENT, FPATH_8BPP);
