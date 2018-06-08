@@ -26,6 +26,7 @@ The image generator code runs on a server, with each generator working on its ow
 
 * Install (Rust)[https://www.rust-lang.org/]
 * `cd` into the project directory
+* Change the file path constants in `main()` as needed 
 * Run `cargo build` to compile without running (optional)
 * Run `cargo run` to run the code (Press Ctrl+C to stop)
 
