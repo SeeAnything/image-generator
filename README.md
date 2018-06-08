@@ -6,7 +6,7 @@
 
 Start with a black image and increment each pixel until the image becomes white. Then you will have created every image possible within that frame. 
 
-The See Anything project is an exercise in (combinatorics)[https://en.wikipedia.org/wiki/Combinatorics] that aims to use different techniques to express as many images as possible through image generator algorithms.
+The See Anything project is an exercise in [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) that aims to use different techniques to express as many images as possible through image generator algorithms.
 
 ## Generators
 
@@ -24,7 +24,7 @@ The image generator code runs on a server, with each generator working on its ow
 
 ## Building
 
-* Install (Rust)[https://www.rust-lang.org/]
+* Install [Rust](https://www.rust-lang.org/)
 * `cd` into the project directory
 * Change the file path constants in `main()` as needed 
 * Run `cargo build` to compile without running (optional)
@@ -32,4 +32,4 @@ The image generator code runs on a server, with each generator working on its ow
 
 ## Contributing
 
-Both the (SeeAnything website)[https://github.com/SeeAnything/seeanything.org] and the image generators are open for pull requests.
+Both the [SeeAnything website](https://github.com/SeeAnything/seeanything.org) and the image generators are open for pull requests.
