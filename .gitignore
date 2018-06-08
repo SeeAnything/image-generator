@@ -11,5 +11,4 @@ Cargo.lock
 
 .DS_Store
 .idea/
-theimage.bmp
-theimage_1bpp.bmp
+theimage*.bmp
