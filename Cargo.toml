@@ -1,0 +1,7 @@
+[package]
+name = "linear-images"
+version = "0.1.0"
+authors = ["jdc"]
+
+[dependencies]
+bmp = "*"
