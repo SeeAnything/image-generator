@@ -22,6 +22,13 @@ The current implementation has three image generators:
 
 The image generator code runs on a server, with each generator working on its own thread and producing one image per generator at a time. When a generator creates a new image, the previous image is overwritten. These images are served on the webpages at [SeeAnything.org](http://seeanything.org/).
 
+## Building
+
+* Install (Rust)[https://www.rust-lang.org/]
+* `cd` into the project directory
+* Run `cargo build` to compile without running (optional)
+* Run `cargo run` to run the code (Press Ctrl+C to stop)
+
 ## Contributing
 
 Both the (SeeAnything website)[https://github.com/SeeAnything/seeanything.org] and the image generators are open for pull requests.
